@@ -1,0 +1,76 @@
+{
+  "worldName": "custom",
+  "options": {
+    "imageURL": "textures/maps/custom.png",
+    "groundType": "box",
+    "length": 100,
+    "width": 100,
+    "uScale": 1,
+    "vScale": 1,
+    "imageScale": 3,
+    "timer": "none",
+    "timerDuration": 60,
+    "timerEnd": "continue",
+    "wall": true,
+    "wallHeight": 7.7,
+    "wallThickness": 4.5,
+    "wallColor": "#1A1A1A",
+    "groundFriction": 1,
+    "wallFriction": 0.1,
+    "groundRestitution": 0,
+    "wallRestitution": 0.1,
+    "restartAnimationOnRun": false,
+    "objects": [
+      {
+        "type": "box",
+        "position": [
+          "variables.obstaculoX",
+          100,
+          10
+        ],
+        "rotationMode": "degrees",
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "animationMode": "none",
+        "animationKeys": [],
+        "size": [
+          30,
+          20,
+          20
+        ],
+        "modelURL": "",
+        "modelScale": 10,
+        "modelAnimation": "None",
+        "color": "#80E680",
+        "imageType": "repeat",
+        "imageURL": "",
+        "uScale": 1,
+        "vScale": 1,
+        "physicsOptions": "fixed",
+        "magnetic": false,
+        "laserDetection": null,
+        "ultrasonicDetection": null,
+        "receiveShadows": false,
+        "castShadows": false,
+        "isPickable": true
+      }
+    ],
+    "startPos": "center",
+    "startPosXYZStr": "",
+    "startRotStr": "",
+    "startPosXYZ": [
+      0,
+      0,
+      0
+    ],
+    "startRot": null,
+    "arenaStartPosXYZ": null,
+    "arenaStartRot": null,
+    "variables": {
+      "obstaculoX": "random(-100, 100)"
+    }
+  }
+}
